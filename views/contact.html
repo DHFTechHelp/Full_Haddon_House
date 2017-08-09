@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Contact Us</title>
+    <link rel="stylesheet" href="../css/contact.css">
+  </head>
+  <body>
+    <nav id="top-nav">
+      <a href="./home">Home</a>
+      <a href="./contact">Contact Us</a>
+      <a href="./application">Application</a>
+    </nav>
+    <div id="main-container">
+      <div id="map"></div>
+    <form action="/contact" method="post">
+      <input type="text" name="subject" placeholder="Subject" />
+      <input type="text" name="reply_to"
+        placeholder="Your Email" />
+      <textarea name="text" id="bio" cols="50" rows="10" placeholder="Please enter message here" value=""></textarea>
+      <input type="submit">
+    </form>
+    </div>
+    <nav id="bottom-nav">
+      <span>Haddon House</span>
+      <span>©&nbsp;Copyright | All Rights Reserved</span>
+      <a href="#top">Top</a>
+    </nav>
+    <script src="config.js"></script>
+    <script src="js/contact.js"></script>
+  </body>
+</html>
