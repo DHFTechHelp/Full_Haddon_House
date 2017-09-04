@@ -9,6 +9,7 @@ function superbCircle(){
   div.className = 'circle';
   var p = document.createElement('p');
   p.textContent = "Superb Value";
+  p.className = "circle-text"
   outerDiv.appendChild(div);
   outerDiv.appendChild(p);
   circles.appendChild(outerDiv);
@@ -22,6 +23,7 @@ function locationCircle(){
   div.className = 'circle';
   var p = document.createElement('p');
   p.textContent = "Best In-town Location";
+  p.className = "circle-text"
   outerDiv.appendChild(div);
   outerDiv.appendChild(p);
   circles.appendChild(outerDiv);
@@ -35,6 +37,7 @@ function gorgeusCircle(){
   div.className = 'circle';
   var p = document.createElement('p');
   p.textContent = "Gorgeus Interiors";
+  p.className = "circle-text"
   outerDiv.appendChild(div);
   outerDiv.appendChild(p);
   circles.appendChild(outerDiv);

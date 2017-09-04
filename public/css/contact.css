@@ -2,19 +2,22 @@
 @media screen and (max-width: 599px) {
   body {
     margin: 0;
-    background-color: blue;
+  }
+
+  #top-nav{
+    background-color: darkgrey;
   }
 
   #top-nav a{
   margin: .5em;
-  border: 2px solid orange;
+  border: 2px solid #FAAF18;
   background: white;
   padding: .5em;
   text-decoration: none;
 }
 
 #top-nav a:hover{
-  background-color: orange;
+  background-color: #FAAF18;
 }
 
   #main-container {
@@ -29,6 +32,14 @@
     width: 25em;
     margin-top: 2em;
     margin: 1em auto 0 auto;
+    box-shadow: 5px 5px 5px #888888;
+  }
+
+  .form-container{
+    margin: auto;
+    background-color: #D3D3D3;
+    padding: 1em;
+    box-shadow: 5px 5px 5px #888888;
   }
 
   form {
@@ -45,7 +56,6 @@
 @media screen and (min-width: 600px) {
   body {
     margin: 0;
-    background-color: red;
   }
 
   #main-container {
@@ -55,30 +65,55 @@
     justify-content: space-around;
   }
 
+  .form-container{
+    margin: auto;
+    background-color: #D3D3D3;
+    padding: 1em;
+    box-shadow: 5px 5px 5px #888888;
+  }
+
   form {
     display: flex;
     margin: auto;
     flex-direction: column;
     margin-top: 1em;
+  }
+
+  form * {
+    margin: .5em;
   }
 
   #map {
     height: 30em;
     width: 30em;
     margin: 1em auto 0 auto;
+    box-shadow: 5px 5px 5px #888888;
   }
+}
+
+#top-nav{
+  background-color: darkgrey;
 }
 
 /*LARGE TABLET STYLES AND DESKTOP*/
 @media screen and (min-width: 900px) {
   body {
     margin: 0;
-    background-color: grey;
   }
 
   #main-container {
     display: flex;
     flex-direction: row;
+    background-color: SeaShell;
+    padding: 1em;
+  }
+
+
+  .form-container{
+    margin: auto;
+    background-color: #D3D3D3;
+    padding: 1em;
+    box-shadow: 5px 5px 5px #888888;
   }
 
   form {
@@ -87,38 +122,46 @@
     flex-direction: column;
   }
 
+  .submitButton {
+    box-shadow: 5px 5px 5px #888888;
+  }
+
+  form * {
+    margin: .5em;
+  }
+
   #map {
     height: 40em;
     width: 40em;
-    margin-top: 2em;
+    margin-bottom: 1em;
   }
 
   #top-nav {
-    background-color: red;
     margin-bottom: 1em;
     display: flex;
     margin-left: 0;
     margin-right: 0;
+    background-color: darkgrey;
   }
 
   #top-nav a{
   margin: .5em;
-  border: 2px solid orange;
+  border: 2px solid #FAAF18;
   background: white;
   padding: .5em;
   text-decoration: none;
 }
 
 #top-nav a:hover{
-  background-color: orange;
+  background-color: #FAAF18;
 }
 
 
   #bottom-nav {
-    background-color: red;
     width: 100%;
     padding: 1em;
     margin-top: 1em;
     margin-bottom: 0;
+    background-color: darkgrey;
   }
 }

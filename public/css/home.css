@@ -13,6 +13,14 @@
     text-align: center;
   }
 
+  .slideshow{
+    margin: auto;
+  }
+
+  h3{
+    text-align: center;
+  }
+
   ul{
     list-style-position: inside;
   }
@@ -22,25 +30,30 @@
   }
 
   #top-nav {
-    background-color: grey;
+    background-color: darkgrey;
+    width: 100%;
     margin-bottom: 1em;
     display: flex;
   }
 
   #top-nav a{
   margin: .5em;
-  border: 2px solid orange;
+  border: 2px solid #FAAF18;
   background: white;
   padding: .5em;
   text-decoration: none;
 }
 
 #top-nav a:hover{
-  background-color: orange;
+  background-color: #FAAF18;
+}
+
+#main-container{
+  margin-top: 7em;
 }
 
   #bottom-nav {
-    background-color: grey;
+    background-color: darkgrey;
     width: 100%;
     margin-left: 0;
     margin-right: 0;
@@ -54,13 +67,20 @@
 @media screen and (min-width: 600px) {
   body{
     margin: 0;
-    background-color: blue;
   }
 
   #main-container {
     display: flex;
     flex-direction: column;
     justify-content: center;
+  }
+
+  h3{
+    text-align: center;
+  }
+
+  .slideshow{
+    margin: auto;
   }
 
   img {
@@ -80,14 +100,14 @@
   }
 
   #top-nav {
-    background-color: grey;
+    background-color: darkgrey;
     margin-bottom: 1em;
     display: flex;
   }
 
   #top-nav a{
   margin: .5em;
-  border: 2px solid orange;
+  border: 2px solid #FAAF18;
   background: white;
   padding: .5em;
   text-decoration: none;
@@ -98,7 +118,7 @@
 }
 
   #bottom-nav {
-    background-color: grey;
+    background-color: #E8E4E4;
     width: 100%;
     margin-left: 0;
     margin-right: 0;
@@ -109,17 +129,24 @@
 
 /*LARGE TABLET STYLES*/
 @media screen and (min-width: 900px) {
-  body{
-    background-color: red;
-  }
 
   img {
     height: 20em;
+  }
+  h3{
+    text-align: center;
+  }
+
+  .slideshow{
+    margin: auto;
   }
 
   #mid-container {
     display: flex;
     flex-direction: row;
+    padding-left: 1em;
+    background-color: WhiteSmoke;
+    margin: 1em 0;
   }
 
   #circles{
@@ -134,7 +161,7 @@
   }
 
   .circle {
-    background-color: black;
+    background-color: #F96125;
     border-radius: 50%;
     width: 50px;
     height: 50px;
@@ -145,20 +172,23 @@
 
   }
 
+  .circle-text{
+    color: #F96125;
+  }
+
   #offer {
     flex-basis: 70%;
   }
 }
 
 @media screen and (min-width: 1100px) {
-  body {
-    background-color: grey;
-    padding-left: 1em;
-    padding-right: 5em;
+
+  h3{
+    text-align: center;
   }
 
   .slideshow{
-    margin-right: 10em;
+    margin: auto;
   }
 
   img {
@@ -171,7 +201,7 @@
   }
 
   #bottom-nav {
-    background-color: red;
+    background-color: darkgrey;
     width: 100%;
     padding: 1em;
     margin-bottom: 0;

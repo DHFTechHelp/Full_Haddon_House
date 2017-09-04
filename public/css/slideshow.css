@@ -4,6 +4,8 @@
   line-height: 0;/*removes the gap if you put a border on the slideshow div*/
   width: 70%;
 }
+
+
 figcaption {
   line-height: 1.5; /* restores line-height to the child element*/
 }
