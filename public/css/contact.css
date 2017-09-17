@@ -10,10 +10,10 @@
 
   #top-nav a{
   margin: .5em;
-  border: 2px solid #FAAF18;
   background: white;
   padding: .5em;
   text-decoration: none;
+  border-radius: 5px;
 }
 
 #top-nav a:hover{
@@ -146,10 +146,10 @@
 
   #top-nav a{
   margin: .5em;
-  border: 2px solid #FAAF18;
   background: white;
   padding: .5em;
   text-decoration: none;
+  border-radius: 5px;
 }
 
 #top-nav a:hover{

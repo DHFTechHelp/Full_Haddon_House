@@ -3,8 +3,12 @@ body{
   margin: 0;
 }
 
+.header{
+  text-align: center;
+}
+
 form {
-background-color: grey;
+background-color: WhiteSmoke;
 padding: 1%;
 }
 
@@ -39,18 +43,23 @@ padding: 1%;
   margin: .5%;
 }
 
+input{
+  padding: .5em;
+  font-size: 12px;
+}
+
 #top-nav {
-  background-color: grey;
+  background-color: darkgrey;
   margin-bottom: 1em;
   display: flex;
 }
 
 #top-nav a{
 margin: .5em;
-border: 2px solid orange;
 background: white;
 padding: .5em;
 text-decoration: none;
+border-radius: 5px;
 }
 
 #top-nav a:hover{
@@ -58,7 +67,7 @@ background-color: orange;
 }
 
 #bottom-nav {
-  background-color: red;
+  background-color: darkgrey;
   width: 100%;
   padding: 1em;
   margin-top: 1em;

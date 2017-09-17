@@ -8,6 +8,7 @@ googleAPI.src = "https://maps.googleapis.com/maps/api/js?key=" + config.MAPS_KEY
 document.querySelector('head').appendChild(googleAPI);
 
 function initMap(){
+  console.log(google.maps);
   map = new google.maps.Map(document.querySelector('#map'), {
     center: home,
     zoom: 14
